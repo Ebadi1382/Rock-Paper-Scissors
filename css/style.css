@@ -1,0 +1,26 @@
+#youChooseBtns {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-style {
+    width: 200px;
+    height: 200px;
+    padding: 2rem;
+    font-size: 5rem;
+    border: 5px solid #ccc;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: 1.5s ease-in-out;
+}
+.btn-style:hover {
+    rotate: 720deg;
+    transition: 1s ease-in-out;
+    transform: scale(1.2);
+}
+.twotest {
+    margin-top: 6rem;
+}
